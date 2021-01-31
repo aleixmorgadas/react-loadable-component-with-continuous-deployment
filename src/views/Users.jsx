@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Users = () => {
-    return <h2>Users</h2>;
+    return <div>
+    <h2>users</h2>
+    <p>Example of users</p>
+</div>;;
 }
 
 export default Users;

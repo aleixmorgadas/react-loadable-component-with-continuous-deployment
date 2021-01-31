@@ -6,6 +6,8 @@ React @loadable/component with Continuous Deployment.
 
 See the explanation post for more info at https://dev.to/aleixmorgadas/react-loadable-component-with-continuous-deployment-5ep3
 
+[![dev.to](https://media-exp1.licdn.com/dms/image/sync/C4D27AQEwD6Ww8_WIkg/articleshare-shrink_800/0/1612128674739?e=1612220400&v=beta&t=wZ1k9XusxXlKkuo25eAspLO9DzF-peNhpofxKj-kckI)](https://dev.to/aleixmorgadas/react-loadable-component-with-continuous-deployment-5ep3)
+
 ## Project Docs
 
 - [React Instructions](./doc/react-instructions.md)

@@ -4,10 +4,13 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './views/Home';
-import About from './views/About';
-import Users from "./views/Users";
+import loadable from '@loadable/component';
 import './App.css';
+
+
+const Home = loadable(() => import('./views/Home'));
+const About = loadable(() => import('./views/About'));
+const Users = loadable(() => import('./views/Users'));
 
 function App() {
   return (

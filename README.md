@@ -31,7 +31,7 @@ As you see, some file names changed as they contain the checksum in the name to 
 
 __See example video of the behavior__
 
-![video](./doc/assets/loadable-component-without-error-handling.webm)
+[![Video with error](./doc/assets/thumbnail-without-error.png)](https://raw.githubusercontent.com/aleixmorgadas/react-loadable-component-with-continuous-deployment/main/doc/assets/loadable-component-without-error-handling.webm)
 
 ## Solution
 
@@ -41,7 +41,7 @@ You add this [ErrorBoundary](./src/ErrorBoundary.jsx) file to your project, and 
 
 __See example of the correct behavior__
 
-![video](./doc/assets/loadable-component-with-error-handling.webm)
+[![Video without error](./doc/assets/thumbnail-with-errorhandling.png)](https://raw.githubusercontent.com/aleixmorgadas/react-loadable-component-with-continuous-deployment/main/doc/assets/loadable-component-with-error-handling.webm)
 
 
 [spa]: https://en.wikipedia.org/wiki/Single-page_application

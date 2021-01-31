@@ -7,4 +7,16 @@ React @loadable/component with Continuous Deployment
 ## Project Docs
 
 - [React Instructions](./doc/react-instructions.md)
-- [Architectural Decisions Record](./doc/adr/README.md)
+
+## Decisions
+
+- It's a [Single-Page Application][spa]
+- We need [@loadable/component][lc] library to reduce the application first loading size
+- We  don't want to store the previous artifacts (js & css) between deployments to keep old versions working
+- We want Continuous Deployment
+
+## Problem
+
+
+[spa]: https://en.wikipedia.org/wiki/Single-page_application
+[lc]: https://github.com/gregberge/loadable-components#readme

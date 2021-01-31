@@ -33,5 +33,15 @@ __See example video of the behavior__
 
 ![video](./doc/assets/loadable-component-without-error-handling.webm)
 
+
+## Solution
+
+Wrap the Router file with a `ErrorBoundary` component that caches the `'ChunkLoadError'` thrown by `@loadable/component` and asks the user to reload the page.
+
+__See example of the correct behavior__
+
+![video](./doc/assets/loadable-component-with-error-handling.webm)
+
+
 [spa]: https://en.wikipedia.org/wiki/Single-page_application
 [lc]: https://github.com/gregberge/loadable-components#readme

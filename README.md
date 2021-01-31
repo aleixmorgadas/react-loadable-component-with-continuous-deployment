@@ -43,6 +43,10 @@ __See example of the correct behavior__
 
 [![Video without error](./doc/assets/thumbnail-with-errorhandling.png)](https://raw.githubusercontent.com/aleixmorgadas/react-loadable-component-with-continuous-deployment/main/doc/assets/loadable-component-with-error-handling.webm)
 
+# License
+
+Copyright (c) 2021 Aleix Morgadas Licensed under the [MIT License](./LICENSE)
+
 
 [spa]: https://en.wikipedia.org/wiki/Single-page_application
 [lc]: https://github.com/gregberge/loadable-components#readme

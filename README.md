@@ -33,10 +33,11 @@ __See example video of the behavior__
 
 ![video](./doc/assets/loadable-component-without-error-handling.webm)
 
-
 ## Solution
 
 Wrap the Router file with a `ErrorBoundary` component that caches the `'ChunkLoadError'` thrown by `@loadable/component` and asks the user to reload the page.
+
+You add this [ErrorBoundary](./src/ErrorBoundary.jsx) file to your project, and then you wrap the `<Router>...</Router>` Component with it. [See example here](https://github.com/aleixmorgadas/react-loadable-component-with-continuous-deployment/blob/main/src/App.js#L18-L19)
 
 __See example of the correct behavior__
 

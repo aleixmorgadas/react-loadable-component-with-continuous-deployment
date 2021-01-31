@@ -17,6 +17,17 @@ React @loadable/component with Continuous Deployment
 
 ## Problem
 
+Let's try do build the project twice changing a little a file:
+
+__Build 1__
+
+![build01](./doc/assets/build01.png)
+
+__Build 2__
+
+![build02](./doc/assets/build02.png)
+
+As you see, some file names changed as they contain the checksum in the name to verify that the content has changed.
 
 [spa]: https://en.wikipedia.org/wiki/Single-page_application
 [lc]: https://github.com/gregberge/loadable-components#readme
